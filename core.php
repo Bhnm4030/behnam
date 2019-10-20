@@ -1,6 +1,6 @@
 <?php
 define('BOT_TOKEN','925495968:AAGu5OagagP8zW102zohnp6TTxThuLpEY4o');
-define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
+define('API_URL', 'https://api.telegram.org/bot925495968:AAGu5OagagP8zW102zohnp6TTxThuLpEY4o'/');
 define('ADMIN_ID', '711547741');
 
 
@@ -24,15 +24,13 @@ function MessageRequestJson($method, $parameters) {
 
 
 function baseUrl(){
-    return 'http://185.27.134.9/new/#/c/185.27.134.11/epiz_24616513/eyJ0IjoiZnRwIiwiYyI6eyJwIjoiZXgwY3NkT0dlVFdRIiwiaSI6IlwvIn19/';
+    return 'https://github.com/Bhnm4030/behnam/blob/master/core.php';
 }
 
 
 function randomImage(){
     $images = glob("images/*.{jpg,png}",GLOB_BRACE);
     $randomImage = $images[array_rand($images)];
-    return baseUrl()."http://185.27.134.9/new/#/c/185.27.134.11/epiz_24616513/eyJ0IjoiZnRwIiwiYyI6eyJwIjoiZXgwY3NkT0dlVFdRIiwiaSI6IlwvIn19".$randomImage;
-}
-
+    return baseUrl()."https://github.com/Bhnm4030/behnam/blob/master/core.php".$randomImage;
 
 ?>
