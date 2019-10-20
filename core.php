@@ -1,6 +1,6 @@
 <?php
 define('BOT_TOKEN','925495968:AAGu5OagagP8zW102zohnp6TTxThuLpEY4o');
-define('API_URL', 'https://api.telegram.org/bot925495968:AAGu5OagagP8zW102zohnp6TTxThuLpEY4o'/');
+define('API_URL', 'https://api.telegram.org/bot925495968:AAGu5OagagP8zW102zohnp6TTxThuLpEY4o');
 define('ADMIN_ID', '711547741');
 
 
