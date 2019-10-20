@@ -1,7 +1,7 @@
 <?php
 
 //database
-define('DB_HOST','localhost');
+define('DB_HOST','https://github.com/Bhnm4030/behnam/blob/master/db.php');
 define('DB_USER','bhnm4030');
 define('DB_PASS','bhnm4030');
 define('DB_NAME','epiz_24616513_gap');
